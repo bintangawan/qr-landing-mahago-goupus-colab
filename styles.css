@@ -158,7 +158,7 @@
   .zone--mahago::before{ background-image:radial-gradient(#fff 1px, transparent 1px); }
   .zone--mahago::after{
     background:url('assets/logo-mahago-putih.webp') center/72% no-repeat;
-    opacity:0.5; transform:scale(1.08) rotate(-8deg);
+    opacity:0.5; transform:scale(1.08);
     z-index:0;
   }
   .zone--gopus{
@@ -168,8 +168,8 @@
   }
   .zone--gopus::before{ background-image:radial-gradient(var(--ink) 1px, transparent 1px); }
   .zone--gopus::after{
-    background:url('assets/logo-gopus-putih.webp') center/70% no-repeat;
-    opacity:0.8; transform:scale(1.08) rotate(6deg);
+    background:url('assets/logo-gopus-putih.webp') center/85% no-repeat;
+    opacity:0.8; transform:scale(1.08);
     z-index:0;
   }
 
